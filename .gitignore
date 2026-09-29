@@ -34,3 +34,9 @@ coverage/
 .vite/
 .turbo/
 *.tsbuildinfo
+
+# --- 签名信任路径实验台：本地数据库/ WAL ---
+*.db
+*.db-wal
+*.db-shm
+trustpath-lab.db*
